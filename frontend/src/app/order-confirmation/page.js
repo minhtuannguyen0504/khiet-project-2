@@ -237,14 +237,14 @@ const OrderConfirmationPage = () => {
               </div>
 
               <div className="next-steps-card">
-                <h2>What's Next?</h2>
+                <h2>What&apos;s Next?</h2>
                 
                 <div className="steps-list">
                   <div className="step">
                     <div className="step-number">1</div>
                     <div className="step-content">
                       <h3>Order Confirmation</h3>
-                      <p>You'll receive an email confirmation shortly with your order details.</p>
+                      <p>You&apos;ll receive an email confirmation shortly with your order details.</p>
                     </div>
                   </div>
                   
@@ -252,7 +252,7 @@ const OrderConfirmationPage = () => {
                     <div className="step-number">2</div>
                     <div className="step-content">
                       <h3>Processing</h3>
-                      <p>We'll prepare your items for shipping within 1-2 business days.</p>
+                      <p>We&apos;ll prepare your items for shipping within 1-2 business days.</p>
                     </div>
                   </div>
                   
@@ -260,7 +260,7 @@ const OrderConfirmationPage = () => {
                     <div className="step-number">3</div>
                     <div className="step-content">
                       <h3>Shipping</h3>
-                      <p>Your order will be shipped and you'll receive tracking information.</p>
+                      <p>Your order will be shipped and you&apos;ll receive tracking information.</p>
                     </div>
                   </div>
                   
@@ -313,8 +313,8 @@ const OrderConfirmationPage = () => {
             <div className="info-card">
               <h3>Track Your Order</h3>
               <p>
-                Once your order ships, you'll receive a tracking number to monitor 
-                your package's progress.
+                Once your order ships, you&apos;ll receive a tracking number to monitor 
+                your package&apos;s progress.
               </p>
             </div>
             

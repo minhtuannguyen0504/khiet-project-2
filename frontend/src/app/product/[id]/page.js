@@ -173,7 +173,7 @@ const ProductDetailPage = () => {
         <Navbar />
         <div className="error-container">
           <h2>Product Not Found</h2>
-          <p>The product you're looking for doesn't exist.</p>
+          <p>The product you&apos;re looking for doesn&apos;t exist.</p>
           <button onClick={navigateToHome} className="back-home-btn">
             Back to Home
           </button>

@@ -98,7 +98,7 @@ const CartPage = () => {
               <div className="empty-cart-content">
                 <img src={assets.cart_icon} alt="Empty Cart" className="empty-cart-icon" />
                 <h2>Your cart is empty</h2>
-                <p>Looks like you haven't added anything to your cart yet.</p>
+                <p>Looks like you haven&apos;t added anything to your cart yet.</p>
                 <button onClick={handleContinueShopping} className="continue-shopping-btn">
                   Continue Shopping
                 </button>

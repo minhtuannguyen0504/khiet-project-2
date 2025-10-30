@@ -171,7 +171,7 @@ const LoginPage = () => {
 
             <div className="login-footer">
               <p className="register-link">
-                Don't have an account?{' '}
+                Don&apos;t have an account?{' '}
                 <Link href="/register" className="register-link-text">
                   Create one here
                 </Link>
