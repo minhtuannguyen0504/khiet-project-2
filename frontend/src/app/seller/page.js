@@ -1,10 +1,10 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import { useAppContext } from '../../context/AppContext';
-import SellerNavbar from '../../components/seller/Navbar';
-import SellerSidebar from '../../components/seller/Sidebar';
-import SellerFooter from '../../components/seller/Footer';
-import Loading from '../../components/Loading';
+import { useAppContext } from '../../../context/AppContext';
+import SellerNavbar from '../../../components/seller/Navbar';
+import SellerSidebar from '../../../components/seller/Sidebar';
+import SellerFooter from '../../../components/seller/Footer';
+import Loading from '../../../components/Loading';
 
 const SellerDashboard = () => {
   const { 
