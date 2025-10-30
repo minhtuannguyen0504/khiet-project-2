@@ -9,7 +9,7 @@ import { assets } from '../../../../assets/assets';
 import '../../../../styles/ProductDetail.css';
 
 import dynamic from "next/dynamic";
-const Navbar = dynamic(() => import("../../../components/Navbar"), {
+const Navbar = dynamic(() => import("../../../../components/Navbar"), {
   ssr: false,
 });
 
