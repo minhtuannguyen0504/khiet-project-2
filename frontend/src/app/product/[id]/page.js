@@ -2,12 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { useAppContext } from '../../../../context/AppContext';
-import Navbar from '../../../../components/Navbar';
 import Footer from '../../../../components/Footer';
 import ProductCard from '../../../../components/ProductCard';
 import Loading from '../../../../components/Loading';
 import { assets } from '../../../../assets/assets';
 import '../../../../styles/ProductDetail.css';
+
+import dynamic from "next/dynamic";
+const Navbar = dynamic(() => import("../../../components/Navbar"), {
+  ssr: false,
+});
+
 
 const ProductDetailPage = () => {
   const { id } = useParams();

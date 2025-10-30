@@ -1,9 +1,13 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../../../context/AppContext';
-import Navbar from '../../../components/Navbar';
 import Footer from '../../../components/Footer';
 import '../../../styles/Checkout.css';
+
+import dynamic from "next/dynamic";
+const Navbar = dynamic(() => import("../../../components/Navbar"), {
+  ssr: false,
+});
 
 const CheckoutPage = () => {
   const { 

@@ -2,10 +2,15 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useAppContext } from '../../../context/AppContext';
-import Navbar from '../../../components/Navbar';
 import Footer from '../../../components/Footer';
 import ProductCard from '../../../components/ProductCard';
 import Loading from '../../../components/Loading';
+
+import dynamic from "next/dynamic";
+const Navbar = dynamic(() => import("../../../components/Navbar"), {
+  ssr: false,
+});
+
 
 const AllProductsClient = () => {
   const searchParams = useSearchParams();
