@@ -1,4 +1,4 @@
-// app/all-products/page.js
+"use client";
 import React, { Suspense } from "react";
 import dynamic from "next/dynamic";
 import Loading from "../../../components/Loading";
