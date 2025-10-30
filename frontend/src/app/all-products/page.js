@@ -1,7 +1,12 @@
-// app/all-products/page.tsx
+// app/all-products/page.js
 import React, { Suspense } from "react";
+import dynamic from "next/dynamic";
 import Loading from "../../../components/Loading";
-import AllProductsClient from "./AllProductsClient";
+
+const AllProductsClient = dynamic(() => import("./AllProductsClient"), {
+  ssr: false,
+  loading: () => <Loading />,
+});
 
 export default function AllProductsPage() {
   return (
